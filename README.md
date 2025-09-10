@@ -1,5 +1,7 @@
 ### Model Selection
 
+Some other models: **AdaptLLM/biomed-Qwen2-VL-2B-Instruct**, **Qwen/Qwen2-VL-2B-Instruct**
+
 I experimented with multiple models for this project, including **Llama 3.2-1B**, **lingshu-medical-mllm/Lingshu-7B**, **medgemma-4B-it**, and **ContactDoctor/Bio-Medical-MultiModal-Llama-3-8B-V1**. **MedGemma-4B-it** proved to be the most suitable choice.
 
 **Justification:**

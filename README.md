@@ -97,3 +97,4 @@ I used a couple of techniques to optimize the pipeline's performance.
 
   * **Quantization:** The 11B Llama Vision-Language Model was quantized to 4-bit. This reduced memory requirements, allowing it to fit within 12GB of HBM, though it resulted in a slight loss of accuracy.
   * **Pipeline Optimization (Reasoning Replacement):** Instead of relying on the LLM’s own reasoning for tool selection, I used explicit branching and prompt engineering. This increases efficiency and reduces token usage but sacrifices some flexibility in handling unexpected cases.
+  * **Default Optimization :** Use of SDPA attention instead of eager attention, use of KV cache for linear time inferencing,
